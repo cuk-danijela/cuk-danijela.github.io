@@ -40,6 +40,9 @@ gulp.task('uncss', async function () {
         .pipe(uncss({
             html: ['index.html', '/*.html', 'https://cuk-danijela.github.io/']
         }))
+        .pipe(rename({
+            suffix: '.min'
+        }))
         .pipe(gulp.dest('dist/css'));
 });
 
@@ -75,4 +78,4 @@ gulp.task('fonts', function () {
 // })
 
 // Default functions
-gulp.task('default', gulp.parallel(['imageMin', 'minify', 'cleancss', 'scripts', 'autoprefixer', 'fonts', 'uncss']));
+gulp.task('default', gulp.parallel(['imageMin', 'minify', 'cleancss', 'autoprefixer', 'fonts', 'uncss']));
