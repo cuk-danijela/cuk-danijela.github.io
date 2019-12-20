@@ -85,4 +85,4 @@ gulp.task('watch', async function () {
 })
 
 // Default functions
-gulp.task('default', gulp.parallel(['imageMin', 'minify', 'cleancss', 'autoprefixer', 'fonts', 'uncss', 'scripts']));
+gulp.task('default', gulp.parallel(['imageMin', 'minify', 'autoprefixer', 'fonts', 'uncss', 'cleancss', 'scripts']));
