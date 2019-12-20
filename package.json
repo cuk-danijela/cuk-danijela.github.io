@@ -29,6 +29,7 @@
     "gulp-uncss": "^1.0.6"
   },
   "dependencies": {
-    "imagemin-webp": "^5.1.0"
+    "imagemin-webp": "^5.1.0",
+    "lodash.template": "^4.5.0"
   }
 }
