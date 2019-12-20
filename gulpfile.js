@@ -1,21 +1,28 @@
 const gulp = require('gulp');
-const imagemin = require('gulp-imagemin');
+const imageMin = require('gulp-imagemin');
 const uglify = require('gulp-uglify');
 const concat = require('gulp-concat');
 const cleancss = require('gulp-clean-css');
 const rename = require('gulp-rename');
 const autoprefixer = require('gulp-autoprefixer');
 const uncss = require('gulp-uncss');
-const webp = require('imagemin-webp');
+const imageminWebp = require('imagemin-webp');
+var responsive = require('gulp-responsive');
 
 // Optimize Images
 gulp.task('imageMin', () =>
     gulp.src('assets/img/**/*')
-        .pipe(imagemin([
-            webp({ quality: 50 })
+        .pipe(imageMin([
+            imageminWebp({ quality: 85 })
         ]))
         .pipe(gulp.dest('dist/img'))
 );
+
+// imageMin(['assets/img/**/*'], 'dist/img', {
+//     use: [imageminWebp({ quality: 50 })]
+// }).then(() => {
+//     console.log('Done!');
+// });
 
 // Minify JS
 gulp.task('minify', async function () {
