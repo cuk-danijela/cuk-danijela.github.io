@@ -6,11 +6,14 @@ const cleancss = require('gulp-clean-css');
 const rename = require('gulp-rename');
 const autoprefixer = require('gulp-autoprefixer');
 const uncss = require('gulp-uncss');
+const webp = require('imagemin-webp');
 
 // Optimize Images
 gulp.task('imageMin', () =>
     gulp.src('assets/img/**/*')
-        .pipe(imagemin())
+        .pipe(imagemin([
+            webp({ quality: 50 })
+        ]))
         .pipe(gulp.dest('dist/img'))
 );
 
