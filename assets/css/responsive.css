@@ -15,6 +15,16 @@
     display: inline-block;
     padding: 0 8px;
   }
+
+  .banner_content>#script-font {
+    font-size: 35px;
+  }
+  .area-padding {
+    padding: 70px 0 30px;
+  }
+  .about-image::before {
+    display: none !important;
+  }
 }
 
 /* Large Mobile 320px - 767px */
@@ -24,8 +34,12 @@
     font-size: 60%;
   }
 
+  label {
+    width: 100%;
+  }
+
   .banner_content h1 {
-    font-size: 20px;
+    font-size: 20px !important;
     line-height: 1.3em;
   }
 
@@ -33,13 +47,9 @@
     text-align: center;
   }
 
-  .back-to-top {
-    display: none;
-  }
-
    .about-image::before,
    .back-to-top {
-     display: none;
+     display: none !important;
    }
 
    .header-area {
