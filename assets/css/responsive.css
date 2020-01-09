@@ -1,4 +1,4 @@
-/* Normal desktop :992px. */
+/* Normal desktop 992px - 1024px */
 @media (min-width: 991px) and (max-width: 1024px) {
   .banner_content #script-font {
     font-size: 38px;
@@ -9,7 +9,7 @@
   }
 }
 
-/* Tablet desktop :768px. */
+/* Tablet desktop 768px - 991px */
 @media (min-width: 768px) and (max-width: 991px) {
   .main-menu ul.navbar-nav li {
     display: inline-block;
@@ -17,74 +17,7 @@
   }
 }
 
-/* small mobile :320px. */
-@media (max-width: 767px) {
-   .about-image::before,
-   .back-to-top {
-     display: none;
-   }
-  .header-area {
-    height: 60px !important;
-    background: #000;
-  }
-
-  .navbar-header a.navbar-brand {
-    display: inline-block;
-    height: 60px !important;
-    padding: 9px 0;
-  }
-
-  .navbar-default .navbar-toggle {
-    padding: 15px 0;
-    margin-right: 9px;
-  }
-
-  .nav.navbar-nav.navbar-right {
-    background-color: #252525;
-    padding: 0;
-    margin-top: 0;
-  }
-
-  .main-menu ul.navbar-nav li {
-    display: block;
-  }
-
-  .main-menu ul.navbar-nav li a {
-    padding: 10px 2px;
-  }
-
-  .main-menu ul.navbar-nav li.active a::after {
-    border: 0px solid #fff;
-  }
-
-  .section-headline h2 {
-    font-size: 30px;
-  }
-
-  .well-middle .single-well {
-    margin-top: 30px;
-  }
-
-  .single-skill {
-    margin-bottom: 40px;
-  }
-
-  .project-menu li a {
-    padding: 8px 12px;
-    margin: 10px 4px;
-  }
-
-  .single-awesome-project {
-    width: 100%;
-    float: none;
-  }
-
-  .footer-content {
-    margin-bottom: 30px;
-  }
-}
-
-/* Large Mobile :480px. */
+/* Large Mobile 320px - 767px */
 @media only screen and (min-width: 320px) and (max-width: 767px) {
 
   code {
@@ -92,8 +25,8 @@
   }
 
   .banner_content h1 {
-        font-size: 20px;
-        line-height: 1.3em;
+    font-size: 20px;
+    line-height: 1.3em;
   }
 
   .footer-icons {
@@ -103,4 +36,69 @@
   .back-to-top {
     display: none;
   }
+
+   .about-image::before,
+   .back-to-top {
+     display: none;
+   }
+
+   .header-area {
+     height: 60px !important;
+     background: #000;
+   }
+
+   .navbar-header a.navbar-brand {
+     display: inline-block;
+     height: 60px !important;
+     padding: 9px 0;
+   }
+
+   .navbar-default .navbar-toggle {
+     padding: 15px 0;
+     margin-right: 9px;
+   }
+
+   .nav.navbar-nav.navbar-right {
+     background-color: #252525;
+     padding: 0;
+     margin-top: 0;
+   }
+
+   .main-menu ul.navbar-nav li {
+     display: block;
+   }
+
+   .main-menu ul.navbar-nav li a {
+     padding: 10px 2px;
+   }
+
+   .main-menu ul.navbar-nav li.active a::after {
+     border: 0px solid #fff;
+   }
+
+   .section-headline h2 {
+     font-size: 30px;
+   }
+
+   .well-middle .single-well {
+     margin-top: 30px;
+   }
+
+   .single-skill {
+     margin-bottom: 40px;
+   }
+
+   .project-menu li a {
+     padding: 8px 12px;
+     margin: 10px 4px;
+   }
+
+   .single-awesome-project {
+     width: 100%;
+     float: none;
+   }
+
+   .footer-content {
+     margin-bottom: 30px;
+   }
 }
