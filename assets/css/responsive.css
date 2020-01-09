@@ -19,6 +19,10 @@
 
 /* small mobile :320px. */
 @media (max-width: 767px) {
+   .about-image::before,
+   .back-to-top {
+     display: none;
+   }
   .header-area {
     height: 60px !important;
     background: #000;
@@ -32,6 +36,7 @@
 
   .navbar-default .navbar-toggle {
     padding: 15px 0;
+    margin-right: 9px;
   }
 
   .nav.navbar-nav.navbar-right {
@@ -87,7 +92,8 @@
   }
 
   .banner_content h1 {
-    font-size: 40px;
+        font-size: 20px;
+        line-height: 1.3em;
   }
 
   .footer-icons {
