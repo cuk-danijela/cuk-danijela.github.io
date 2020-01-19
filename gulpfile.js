@@ -1,13 +1,13 @@
 const gulp = require('gulp');
 const imageMin = require('gulp-imagemin');
+const imageminWebp = require('imagemin-webp');
 const uglify = require('gulp-uglify');
 const concat = require('gulp-concat');
 const cleancss = require('gulp-clean-css');
 const rename = require('gulp-rename');
 const autoprefixer = require('gulp-autoprefixer');
-const uncss = require('gulp-uncss');
-const imageminWebp = require('imagemin-webp');
-var responsive = require('gulp-responsive');
+const uncss = require('gulp-uncss-sp');
+
 
 // Optimize Images
 gulp.task('imageMin', () =>
@@ -30,15 +30,15 @@ gulp.task('minify', async function () {
 });
 
 // Remove unused CSS
-gulp.task('uncss', async function () {
+gulp.task('uncss-sp', async function () {
     gulp.src('assets/css/*.css')
         .pipe(uncss({
-            html: ['index.html', '/*.html', 'https://cuk-danijela.github.io/']
+            html: ['index.html', '/*.html']
         }))
         .pipe(rename({
             suffix: '.min'
         }))
-        .pipe(gulp.dest('dist/css'));
+        .pipe(gulp.dest('dist/'));
 });
 
 // Minify CSS
@@ -85,4 +85,4 @@ gulp.task('watch', async function () {
 })
 
 // Default functions
-gulp.task('default', gulp.parallel(['imageMin', 'minify', 'autoprefixer', 'fonts', 'uncss', 'cleancss', 'scripts']));
+gulp.task('default', gulp.parallel(['imageMin', 'minify', 'autoprefixer', 'fonts', 'cleancss', 'scripts']));

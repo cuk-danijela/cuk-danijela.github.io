@@ -164,7 +164,6 @@
     autoStart: true,
     startDelay: 100,
     strings: [
-      "I'm not a great programmer. I'm just a programmer with good habits",
       "To master a new technology, you have to play with it",
       "You affect the world by what you browse",
       "It's not a faith in technology. It's faith in people"
