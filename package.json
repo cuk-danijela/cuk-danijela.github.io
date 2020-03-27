@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/cuk-danijela/jekyll-theme#readme",
   "devDependencies": {
-    "@hapi/hoek": "^9.0.2",
+    "@hapi/hoek": "^9.0.4",
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
