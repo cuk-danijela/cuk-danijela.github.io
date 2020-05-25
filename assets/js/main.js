@@ -164,9 +164,9 @@
     autoStart: true,
     startDelay: 100,
     strings: [
-      "To master a new technology, you have to play with it",
+      "Do more of what makes you happy",
       "You affect the world by what you browse",
-      "It's not a faith in technology. It's faith in people"
+      "Be productive. Not busy!"
     ]
   });
 
