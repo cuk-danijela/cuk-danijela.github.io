@@ -1,24 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Anonymous+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway&display=swap');
-
-html,
-body {
+html, body {
   height: 100%;
 }
 
 /* 2. Typography Styles
 ======================================== */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-   font-family: 'Raleway',
-   sans-serif;
-   margin: 0 0 15px;
-   color: #444;
-   font-weight: 500;
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+  margin: 0 0 15px;
+  color: #444;
+  font-weight: 500;
 }
 
 h1 {
@@ -60,6 +53,7 @@ p {
   margin: 0 0 15px;
   color: #444;
 }
+
 /* 
 h1 {
   font-size: 48px;
@@ -86,8 +80,7 @@ a:hover {
   text-decoration: none;
 }
 
-a:active,
-a:hover {
+a:active, a:hover {
   outline: 0 none;
 }
 
@@ -102,6 +95,7 @@ body {
 }
 
 /* Back to top button */
+
 .back-to-top {
   position: fixed;
   display: none;
@@ -120,7 +114,6 @@ body {
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
 }
 
-
 .back-to-top:focus {
   background: #c7254e;
   color: #fff;
@@ -138,9 +131,7 @@ ul {
   padding: 0;
 }
 
-input,
-input[type="text"],
-button {
+input, input[type="text"], button {
   -moz-appearance: none;
   box-shadow: none !important;
 }
@@ -205,6 +196,7 @@ div#preloader {
 }
 
 /*--------------------------------*/
+
 /* Header top 
 /*--------------------------------*/
 
@@ -276,8 +268,7 @@ div#preloader {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
 }
 
-.navbar-default .navbar-nav>.active>a:hover,
-.navbar-default .navbar-nav>.active>a:focus {
+.navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
   background: none;
   color: #333;
 }
@@ -289,14 +280,12 @@ div#preloader {
   padding: 25px 0px;
 }
 
-.navbar-default .navbar-nav>li>a:hover,
-.navbar-default .navbar-nav>li>a:focus {
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
   background-color: transparent;
   color: #fff;
 }
 
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
   background: none;
 }
 
@@ -327,6 +316,7 @@ div#preloader {
 /* --------------------------------
   Home Area 
 --------------------------*/
+
 .main_banner {
   height: 700px;
   background-size: cover;
@@ -393,19 +383,17 @@ svg {
   text-transform: uppercase;
 }
 
-.learn-more:hover,
-.learn-more:focus,
-.learn-more:active {
+.learn-more:hover, .learn-more:focus, .learn-more:active {
   letter-spacing: 0.125rem;
   text-decoration: none;
   color: #fff;
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.14),
-    0 4px 8px rgba(0, 0, 0, 0.28);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
 }
 
 /*------------------------------
   About Area
 --------------------------------*/
+
 .about-area {
   background-color: #f9f9f9;
 }
@@ -453,6 +441,7 @@ svg {
 
 /* Services Area
 /*--------------------------------*/
+
 .services-icon {
   color: #444;
   display: inline-block;
@@ -470,8 +459,7 @@ svg {
   transition: all 0.5s ease 0s;
 }
 
-.services-details:hover h4,
-.services-details:hover .services-icon {
+.services-details:hover h4, .services-details:hover .services-icon {
   color: #c7254e;
 }
 
@@ -489,6 +477,7 @@ svg {
 /*----------------------------------------
   Skill Area
 ----------------------------------------*/
+
 .our-skill-area {
   position: relative;
   background-color: grey;
@@ -544,14 +533,12 @@ input.knob {
   transition: all 0.3s ease 0s;
 }
 
-.project-menu li a.active,
-.project-menu li a:hover {
+.project-menu li a.active, .project-menu li a:hover {
   border-color: #c7254e;
   background: #c7254e;
   color: #fff;
   text-decoration: none;
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.14),
-    0 4px 8px rgba(0, 0, 0, 0.28);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
 }
 
 .single-awesome-project {
@@ -637,6 +624,7 @@ input.knob {
 }
 
 /*--------------------------------*/
+
 /* Contact Area
 /*--------------------------------*/
 
@@ -689,6 +677,7 @@ input.knob {
 }
 
 /*----------------------------------------*/
+
 /*  Footer Area
 /*----------------------------------------*/
 
