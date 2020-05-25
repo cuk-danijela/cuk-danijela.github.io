@@ -165,6 +165,7 @@
     startDelay: 100,
     strings: [
       "Do more of what makes you happy",
+      "Work hard, stay humble",
       "You affect the world by what you browse",
       "Be productive. Not busy!"
     ]
