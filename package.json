@@ -17,8 +17,8 @@
   },
   "homepage": "https://github.com/cuk-danijela/cuk-danijela.github.io.git",
   "devDependencies": {
-    "@hapi/hoek": "^9.0.4",
-    "browser-sync": "^2.26.7",
+    "@hapi/hoek": "^9.1.0",
+    "browser-sync": "^2.26.12",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
     "gulp-clean-css": "^4.3.0",
@@ -33,7 +33,7 @@
   "dependencies": {
     "@hapi/bounce": "^2.0.0",
     "@hapi/cryptiles": "^5.1.0",
-    "bootstrap": "^4.5.0",
+    "bootstrap": "^4.5.2",
     "cryptiles": "^4.1.3",
     "hoek": "^6.1.3",
     "imagemin-webp": "^5.1.0",
