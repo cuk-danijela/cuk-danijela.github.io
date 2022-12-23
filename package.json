@@ -18,7 +18,7 @@
   "homepage": "https://github.com/cuk-danijela/cuk-danijela.github.io.git",
   "devDependencies": {
     "@hapi/hoek": "^9.2.0",
-    "browser-sync": "^2.27.4",
+    "browser-sync": "^2.27.11",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^6.1.0",
     "gulp-clean-css": "^4.3.0",
